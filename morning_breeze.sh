@@ -1,4 +1,7 @@
 #!/bin/bash
+# Author: Vonarian
+# License: WTFPL
+
 
 # Define colors and formatting for maximum dramatic effect
 SIMON="\033[1;36mSimon:\033[0m"
