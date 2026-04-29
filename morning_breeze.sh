@@ -8,6 +8,7 @@ SIMON="\033[1;36mSimon:\033[0m"
 PEPE="\033[1;32mPepe (You):\033[0m"
 ACTION="\033[1;33m"
 RED="\033[1;31m"
+PASTA="\033[1;35mPastor Ssempa:\033[0m"
 RESET="\033[0m"
 
 clear
@@ -94,3 +95,45 @@ echo -e "${SIMON} So, you are a \"trans-gender\"?"
 # The final boss
 sleep 2.5
 echo -e "\n\033[1;35m[ * Pastor Martin Ssempa suddenly enters the studio with a grocery bag full of vegetables * ]\033[0m\n"
+sleep 2
+
+echo -e "${PASTA} Why have you brought a 'leshbian' to this studio?!"
+sleep 1
+echo -e "${SIMON} Pastor Ssempa, please. He is a human rights activist."
+sleep 1
+echo -e "${PASTA} NO! He is a homosex-ual! He is a 'trans-gender'!"
+sleep 1.5
+
+echo -e "\n${ACTION}(Ssempa begins aggressively opening his grocery bag...)${RESET}"
+sleep 2
+
+echo -e "${PASTA} Look at this! ${RED}THIS IS A CUCUMBER!${RESET}"
+
+# 7: Where did you get that?
+while true; do
+	echo -n -e "${PEPE} "
+	read -e -r input
+	norm=$(echo "$input" | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | xargs)
+
+	if [[ "$norm" == *"where did you get"* ]]; then
+		break
+	else
+		echo -e "\033[3m(Director's whisper: Ask him the obvious question: 'Where did you get that?')\033[0m"
+	fi
+done
+
+sleep 0.5
+echo -e "${PASTA} I got it from the garden!"
+sleep 1
+echo -e "${PASTA} They use this! They use the banana! They use the carrot!"
+sleep 1.5
+echo -e "${PASTA} They are confusing our children! It is ${RED}EAT DA POO POO${RESET} level of confusion!"
+sleep 2
+
+echo -e "\n${SIMON} (Turns to the camera, looking utterly defeated)"
+sleep 1.5
+echo -e "${SIMON} ${RED}Confusion of the highest order.${RESET}"
+sleep 2
+
+echo -e "\n${ACTION}[ * FADE TO BLACK * ]${RESET}"
+echo -e "${ACTION}[ * CREDITS ROLL: Directed by Robert B. Weide * ]${RESET}\n"
