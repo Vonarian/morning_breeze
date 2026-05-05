@@ -1,8 +1,8 @@
 # 🌬️ Morning Breeze
 
-> "Why are you gay?" — Simon Kabaya
+> "Why are you gay?" — Simon Kaggwa Njala
 
-A shell-based reenactment of the legendary 2012 interview between Simon Kabaya and Pepe Julian Onziema. This script brings the dramatic pauses, the intense staring, and the "trans-gender" confusion directly to your terminal.
+A shell-based reenactment of the legendary 2012 interview between Simon Kaggwa Njala and Pepe Julian Onziema. This script brings the dramatic pauses, the intense staring, and the "trans-gender" confusion directly to your terminal.
 
 ## 🚀 Features
 
